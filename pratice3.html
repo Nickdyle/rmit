@@ -1,0 +1,70 @@
+<style>
+    table, tr, td{
+        border: 1px solid grey;
+        border-collapse: collapse;
+        padding: 5px;
+    }
+</style>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewreport" content="width=device-width, initial-scale=1.0">
+        <title>Homepage</title>
+    </head>
+<body>
+    <h1>Zoo Keeper Application Form</h1>
+    <div>Please complete the form. Mandatory fields are marked with *</div>
+    <table border="1"> <!--Contact Details-->
+        <h2>Contact Details</h2>
+        <tr>
+        <td><label for="">Name*</label></td>
+        <td><input type="text"></td>
+        </tr>
+        <tr>
+        <td><label for="">Telephone</label></td>
+        <td><input type="text"></td>
+        </tr>
+        <tr>
+        <td><label for="">Email*</label></td>
+        <td><input type="text"></td>
+        </tr>
+    </table>
+    <table border="1"> <!--Personal Information-->
+        <h2>Personal Information</h2>
+        <tr>
+            <td><label for="">*Age</label></td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td><label for="">Gender</label></td>
+            <td><select name="" id="">
+                <option value="">    </option>
+                <option value="">Male</option>
+                <option value="">Female</option>
+                <option value="">Others</option>
+            </select> </td>
+        </tr>
+        <tr>
+            <td><label for="">When did you first know you wanted to be a zoo keeper?</label></td>
+            <td><textarea name="" id="" cols="30" rows="5"></textarea></td>
+        </tr>
+
+    </table>
+    <table border="1">
+        <h2>Pick your Favorite Animals</h2>
+        <td><input type="radio" name="" id="">Zebra
+        <input type="radio" name="" id="">Cat
+        <input type="radio" name="" id="">Anaconda
+        <input type="radio" name="" id="">Human <br/>
+        <input type="radio" name="" id="">Elephant
+        <input type="radio" name="" id="">Wildebeest
+        <input type="radio" name="" id="">Pigeon
+        <input type="radio" name="" id="">Crab
+        </td>
+    </table>
+    <br>
+    <button>Submit Apllication</button>
+</body>
+</html>
